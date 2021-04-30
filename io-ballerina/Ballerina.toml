@@ -1,18 +1,18 @@
 [package]
 org = "ballerina"
 name = "io"
-version = "@toml.version@"
+version = "0.6.0-alpha9"
 
 [[platform.java11.dependency]]
-path = "../io-native/build/libs/io-native-@project.version@.jar"
+path = "../io-native/build/libs/io-native-0.6.0-alpha9-SNAPSHOT.jar"
 groupId = "ballerina"
 artifactId = "io"
-version = "@project.version@"
+version = "0.6.0-alpha9-SNAPSHOT"
 
 
 [[platform.java11.dependency]]
-path = "../io-test-utils/build/libs/io-test-utils-@project.version@.jar"
+path = "../io-test-utils/build/libs/io-test-utils-0.6.0-alpha9-SNAPSHOT.jar"
 groupId = "org.ballerinalang.stdlib.io"
 scope = "testOnly"
 artifactId = "io"
-version = "@project.version@"
+version = "0.6.0-alpha9-SNAPSHOT"
