@@ -18,7 +18,7 @@
 package org.ballerinalang.stdlib.io.channels.base;
 
 import org.ballerinalang.stdlib.io.utils.BallerinaIOException;
-import org.ballerinalang.stdlib.io.utils.Generated;
+import org.ballerinalang.stdlib.io.utils.ExcludeCoverageFromGeneratedReport;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -73,7 +73,7 @@ public class Buffer {
      * @param totalNumberOfBytesRequired number of bytes required.
      * @return new ByteBuffer which will contain bytes which are remaining.
      */
-    @Generated
+    @ExcludeCoverageFromGeneratedReport
     private ByteBuffer remainingContent(int totalNumberOfBytesRequired) {
         ByteBuffer remainingContent = null;
         if (null != byteBuffer) {

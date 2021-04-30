@@ -28,6 +28,6 @@ import java.lang.annotation.Target;
 /**
  * Annotation to exclude certain methods from Jacoco Report
  */
-public @interface Generated {
+public @interface ExcludeCoverageFromGeneratedReport {
 
 }
